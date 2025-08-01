@@ -1,6 +1,7 @@
 // pages/success.js
 
 import Head from 'next/head'
+import "Link" from 'next/link';
 
 export default function Success() {
   return (
@@ -27,7 +28,7 @@ export default function Success() {
         }}>
           <h1 style={{ color: '#28a745', fontSize: '2rem' }}>✅ Оплата прошла успешно!</h1>
           <p style={{ fontSize: '1.2rem', marginTop: '20px' }}>Спасибо за ваш заказ! Мы уже начали его обработку.</p>
-          <a href="/" style={{
+          <Link href="/" style={{
             marginTop: '30px',
             display: 'inline-block',
             backgroundColor: '#0070f3',
@@ -36,7 +37,7 @@ export default function Success() {
             borderRadius: '8px',
             textDecoration: 'none',
             transition: 'background-color 0.3s',
-          }}>Вернуться на главную</a>
+          }}>Вернуться на главную</Link>
         </div>
       </div>
     </>
