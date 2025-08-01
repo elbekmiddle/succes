@@ -1,7 +1,7 @@
 // pages/success.js
 
 import Head from 'next/head'
-import "Link" from 'next/link';
+import Link from 'next/link'
 
 export default function Success() {
   return (
